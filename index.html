@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My html advanced assignment</title>
+</head>
+<body>
+    <h2>Simple Web Page </h2>
+    <h3>Here let me list what we would implement</h3>
+    <!-- Ordered List with Roman Numerals -->
+    <ol type="i">
+        <li>Embed External Image</li>
+        <li>Create table</li>
+        <li>Registration form</li>
+    </ol>
+
+    <!-- External Image -->
+    <h3>External Image</h3>
+    <img src="https://images.pexels.com/photos/14081673/pexels-photo-14081673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image of birds in the sky">
+
+    <!-- Table -->
+    <h3>Table</h3>
+    <table border="1" cellpadding="10" cellspacing="5">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Moblie</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>30 lagos str</td>
+            <td>08067890123</td>
+            <td>johndoe@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Doe</td>
+            <td>142 orchid road lagos</td>
+            <td>09078901234</td>
+            <td>janedoe@example.com</td>
+        </tr>
+        <tr>
+            <td>Mike Doe</td>
+            <td>35 indiana warehouse complex opp barracks</td>
+            <td>08167890125</td>
+            <td>mikedoe@example.com</td>
+        </tr>
+        <tr>
+            <td>Sarah Doe</td>
+            <td>25 highway str, beside general hospital</td>
+            <td>09278901236</td>
+            <td>sarahdoe@example.com</td>
+        </tr>
+        <tr>
+            <td>Micheal Travis</td>
+            <td>18 Cross bridge island, manila</td>
+            <td>08122344210</td>
+            <td>michealtravis@emample.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h3>Registration Form</h3>
+    <form action="" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your fullname" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <label for="dob">Dob</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label>Gender</label><br>
+        <input type="radio" id="Male" name="Gender" required>
+        <label for="Male">Male</label><br>
+        <input type="radio" id="Female" name="Gender" required>
+        <label for="Female">Female</label><br><br>
+
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+            <option value="Nigeria">Nigeria</option>
+        </select><br><br>
+
+        <label>Interest</label><br>
+        <input type="checkbox" id="sports" name="interests[]" value="Sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="cooking" name="interests[]" value="Cooking">
+        <label for="cooking">Cooking</label><br>
+        <input type="checkbox" id="traveling" name="interests[]" value="Traveling">
+        <label for="traveling">Traveling</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h3>Audio and Video</h3>
+    <audio controls>
+        <source src="https://www.sample-videos.com/audio/mp3/birds.mp3" type="audio/mp3">
+    </audio><br><br>
+
+    <video width="500" controls>
+        <source src="https://www.youtube.com/watch?v=J1d4nCXNlDs" type="video/mp4">
+    </video>
+</body>
+</html>
